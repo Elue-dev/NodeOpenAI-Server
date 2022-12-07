@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://127.0.0.1:5174", "https://nodeopenai.netlify.app"],
+    origin: ["https://nodeopenai.netlify.app"],
     credentials: true,
   })
 );
