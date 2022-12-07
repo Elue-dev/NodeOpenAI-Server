@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "build": "rimraf dist &&  npx tsc",
-    "server": "nodemon dist/server.js",
+    "server": "node dist/server.js",
     "prestart": "npm run build",
     "start": "node dist/server.js",
     "preserve": "npm run build",
